@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(black-1072366_1280.jpg);
+  }
+  
+  /* designing the counter container */
+  .container {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding: 55px;
+    border-radius: 5px;
+  }
+  .hh{
+    margin-top: -30px;
+  }
+  
+  /* designing the buttons */
+  button {
+    padding: 5px 15px;
+    font-size: 20px;
+    gap: 20px;
+    font-weight: bold;
+  }
+  
+  #displayValue {
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+
+    border: 1px solid black;
+  }
